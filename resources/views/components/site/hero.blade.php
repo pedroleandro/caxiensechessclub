@@ -30,7 +30,7 @@
         <p class="text-gray-200 text-lg md:text-xl mb-8">
             Desafie sua mente. Celebre a estratégia. Seja membro.
         </p>
-        <a href="#"
+        <a href=""
            class="bg-[#f80b3d] text-white px-8 py-3 text-sm font-bold uppercase tracking-widest hover:bg-red-700 transition-colors duration-200 rounded">
             Seja Membro
         </a>

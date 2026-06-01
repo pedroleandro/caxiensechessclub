@@ -41,6 +41,15 @@
                     Contato
                 </a>
             </li>
+
+            <li>
+                <a href=""
+                   onmouseover="this.style.color='#f80b3d'"
+                   onmouseout="this.style.color=window.scrollY > 50 ? '#000000' : '#ffffff'"
+                   class="transition-colors duration-200">
+                    Calendário
+                </a>
+            </li>
         </ul>
 
         {{-- Botão Hamburguer --}}
@@ -66,27 +75,27 @@
                 </a>
             </li>
             <li>
-                <a href="#"
+                <a href=""
                    class="block py-3 px-2 text-sm font-semibold uppercase tracking-wider border-b border-gray-800 hover:text-[#f80b3d] transition-colors duration-200">
                     Sobre
                 </a>
             </li>
             <li>
-                <a href="#"
+                <a href=""
                    class="block py-3 px-2 text-sm font-semibold uppercase tracking-wider border-b border-gray-800 hover:text-[#f80b3d] transition-colors duration-200">
-                    Torneios
+                    Notícias
                 </a>
             </li>
             <li>
-                <a href="#"
-                   class="block py-3 px-2 text-sm font-semibold uppercase tracking-wider border-b border-gray-800 hover:text-[#f80b3d] transition-colors duration-200">
-                    Blog
-                </a>
-            </li>
-            <li>
-                <a href="#"
+                <a href=""
                    class="block py-3 px-2 text-sm font-semibold uppercase tracking-wider border-b border-gray-800 hover:text-[#f80b3d] transition-colors duration-200">
                     Contato
+                </a>
+            </li>
+            <li>
+                <a href=""
+                   class="block py-3 px-2 text-sm font-semibold uppercase tracking-wider border-b border-gray-800 hover:text-[#f80b3d] transition-colors duration-200">
+                    Calendário
                 </a>
             </li>
         </ul>
