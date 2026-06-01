@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Olá, Mundo!</h1>
+    @include('components.site.hero')
 @endsection
