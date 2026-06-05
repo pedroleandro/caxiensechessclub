@@ -25,8 +25,8 @@
                 <li><a href="{{ route('home') }}" class="hover:text-white transition-colors duration-200">Home</a></li>
                 <li><a href="{{ route('about') }}" class="hover:text-white transition-colors duration-200">Sobre</a></li>
                 <li><a href="" class="hover:text-white transition-colors duration-200">Notícias</a></li>
-                <li><a href="" class="hover:text-white transition-colors duration-200">Contato</a></li>
-                <li><a href="" class="hover:text-white transition-colors duration-200">Calendário</a></li>
+                <li><a href="{{ route('contact') }}" class="hover:text-white transition-colors duration-200">Contato</a></li>
+                <li><a href="{{ route('calendar') }}" class="hover:text-white transition-colors duration-200">Calendário</a></li>
             </ul>
         </div>
 
