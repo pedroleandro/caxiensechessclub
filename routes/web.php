@@ -8,6 +8,8 @@ Route::get('/', [PageController::class, 'home'])->name('home');
 
 Route::get('/sobre', [PageController::class, 'about'])->name('about');
 
+Route::get('/calendario', [PageController::class, 'calendar'])->name('calendar');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

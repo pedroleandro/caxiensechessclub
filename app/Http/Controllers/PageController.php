@@ -15,4 +15,9 @@ class PageController extends Controller
     {
         return view('pages.about');
     }
+
+    public function calendar()
+    {
+        return view('pages.calendar');
+    }
 }
