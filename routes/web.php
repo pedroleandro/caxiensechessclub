@@ -5,10 +5,9 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
-
 Route::get('/sobre', [PageController::class, 'about'])->name('about');
-
 Route::get('/calendario', [PageController::class, 'calendar'])->name('calendar');
+Route::get('/contato', [PageController::class, 'contact'])->name('contact');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
