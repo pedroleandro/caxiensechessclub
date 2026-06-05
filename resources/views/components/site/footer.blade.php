@@ -23,7 +23,7 @@
             <h3 class="text-sm font-semibold uppercase tracking-wider mb-3 text-[#f80b3d]">Links Rápidos</h3>
             <ul class="space-y-2 text-sm text-gray-400">
                 <li><a href="{{ route('home') }}" class="hover:text-white transition-colors duration-200">Home</a></li>
-                <li><a href="" class="hover:text-white transition-colors duration-200">Sobre</a></li>
+                <li><a href="{{ route('about') }}" class="hover:text-white transition-colors duration-200">Sobre</a></li>
                 <li><a href="" class="hover:text-white transition-colors duration-200">Notícias</a></li>
                 <li><a href="" class="hover:text-white transition-colors duration-200">Contato</a></li>
                 <li><a href="" class="hover:text-white transition-colors duration-200">Calendário</a></li>
