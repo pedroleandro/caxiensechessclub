@@ -43,7 +43,7 @@
             </li>
 
             <li>
-                <a href=""
+                <a href="{{ route('calendar') }}"
                    onmouseover="this.style.color='#f80b3d'"
                    onmouseout="this.style.color=window.scrollY > 50 ? '#000000' : '#ffffff'"
                    class="transition-colors duration-200">
